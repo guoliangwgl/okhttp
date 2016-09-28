@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.squareup.okhttp.OkHttpClient;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -26,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+
+
     }
 
     @Override
@@ -48,5 +53,15 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    /**
+     * @
+     * @author guoliang.wgl
+     * @time 2016/9/28 14:18
+     */
+
+    // TODO: 2016/9/28  
+    public void HttpGet(){
+
     }
 }
